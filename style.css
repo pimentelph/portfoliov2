@@ -519,6 +519,7 @@ a:hover {
 /*Projetos*/
 
 #projetos {
+    background-color: #262626;
     height: auto;
     display: flex;
     justify-content: center;
@@ -531,10 +532,10 @@ a:hover {
     font-size: 60px;
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin-bottom: 20px;
 }
 
 .divisona3 {
-    background-color: chartreuse;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -543,12 +544,49 @@ a:hover {
 }
 
 .divisona3 .divproj {
-    background-color: blueviolet;
+    background-color: #0D0D0C;
     margin: 10px;
-    height: 300px;
-    width: 400px;
+    height: 370px;
+    width: 490px;
     border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.divisona3 .divproj a:hover {
+    opacity: 0.72;
+}
+
+.divisona3 .divproj .divtexto {
+    color: #D9CDBF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-bottom: 12px;
+    margin-left: 10px;
+}
+
+.divisona3 .divproj #titulo {
+    font-size: 23px;
+}
+
+.divisona3 .divproj #texto {
+    font-size: 15px;
+}
+
+.divisona3 .divproj span {
+    font-size: 17px;
+}
+
+.divisona3 .divproj img {
+    width: 470px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
 
 @media (max-width: 575.98px) {
 
@@ -562,8 +600,40 @@ a:hover {
 
     .divisona3 .divproj {
         margin: 10px;
-        height: 150px;
-        width: 200px;
+        height: 250px;
+        width: 300px;
+    }
+
+    .divisona3 .divproj a:hover {
+        opacity: 0.72;
+    }
+
+    .divisona3 .divproj .divtexto {
+        color: #D9CDBF;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        flex-direction: column;
+        margin-bottom: 12px;
+        margin-left: 10px;
+    }
+
+    .divisona3 .divproj #titulo {
+        font-size: 13px;
+    }
+
+    .divisona3 .divproj #texto {
+        font-size: 10px;
+    }
+
+    .divisona3 .divproj span {
+        font-size: 12px;
+    }
+
+    .divisona3 .divproj img {
+        width: 290px;
+        border-radius: 20px;
+        margin-top: 10px;
     }
 
 }
