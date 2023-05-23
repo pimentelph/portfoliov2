@@ -638,10 +638,38 @@ a:hover {
 
 }
 
-@media (min-width: 576px) and (max-width: 767.98px) {}
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .titulo2 h1 {
+        color: #D9CDBF;
+        font-size: 18px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+}
 
-@media (min-width: 768px) and (max-width: 991.98px) {}
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .titulo2 h1 {
+        color: #D9CDBF;
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+}
 
-@media (min-width: 992px) and (max-width: 1199.98px) {}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .titulo2 h1 {
+        color: #D9CDBF;
+        font-size: 30px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+}
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    .titulo2 h1 {
+        color: #D9CDBF;
+        font-size: 55px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+}
