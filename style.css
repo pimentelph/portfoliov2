@@ -93,10 +93,6 @@ a:hover {
     height: 100vh;
 }
 
-#toque {
-    background-color: chocolate;
-}
-
 /*home*/
 
 #home {
@@ -304,7 +300,7 @@ a:hover {
 }
 
 .textoabout h2 {
-    color: #D9CDBF;
+    color: #ff920f;
     font-size: 30px;
     letter-spacing: 2px;
     margin-bottom: 1%;
@@ -337,7 +333,7 @@ a:hover {
     }
 
     .textoabout h2 {
-        color: #D9CDBF;
+        color: #ff920f;
         font-size: 18px;
         letter-spacing: 2px;
         margin-bottom: 1%;
@@ -388,7 +384,7 @@ a:hover {
     }
 
     .textoabout h2 {
-        color: #D9CDBF;
+        color: #ff920f;
         font-size: 18px;
         letter-spacing: 2px;
         margin-bottom: 1%;
@@ -441,7 +437,7 @@ a:hover {
     }
 
     .textoabout h2 {
-        color: #D9CDBF;
+        color: #ff920f;
         font-size: 21px;
         letter-spacing: 2px;
         margin-bottom: 1%;
@@ -470,7 +466,7 @@ a:hover {
     }
 
     .textoabout h2 {
-        color: #D9CDBF;
+        color: #ff920f;
         font-size: 21px;
         letter-spacing: 2px;
         margin-bottom: 1%;
@@ -498,7 +494,7 @@ a:hover {
     }
 
     .textoabout h2 {
-        color: #D9CDBF;
+        color: #ff920f;
         font-size: 35px;
         letter-spacing: 2px;
         margin-bottom: 1%;
@@ -672,4 +668,69 @@ a:hover {
         text-transform: uppercase;
         letter-spacing: 3px;
     }
+}
+
+/*Contato*/
+
+#contato {
+    background-color: #262626;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+#contato img {
+    width: 5vw;
+}
+
+#contato #redes {
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contato #redes p {
+    color: #262626;
+    text-align: center;
+    padding: 3px;
+    background-color: #ff920f;
+    border-radius: 20px;
+}
+
+#contato #redes figure {
+    text-align: center;
+}
+
+#contato #email {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#contato #email #titulo {
+    font-size: 3vw;
+    color: #D9CDBF;
+}
+
+#contato #email #copiacola {
+    display: flex;
+    flex-direction: row;
+}
+
+#contato #email #copiacola button {
+    width: 100px;
+    font-size: 1.4vw;
+    color: #262626;
+}
+
+#contato #email #copiacola #texto {
+    font-size: 1.4vw;
+    background-color: #ff920f;
+    padding: 10px;
+    color: #262626;
 }
